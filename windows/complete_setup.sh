@@ -23,10 +23,10 @@ export $(grep -v '^#' "$ENV_FILE" | xargs)
 if [ ! -d ".git" ]; then
     echo "📁 初始化 Git Repository..."
     git init
-    git config user.name "AI File Repair CI"
+    git config user.name "AI Data Recovery CI"
     git config user.email "ci@github.com"
     git add .
-    git commit -m "Initial commit: AI File Repair with GitHub Actions CI/CD"
+    git commit -m "Initial commit: AI Data Recovery with GitHub Actions CI/CD"
 else
     echo "📁 Git Repository 已存在"
 fi
@@ -48,7 +48,7 @@ if ! git remote | grep -q origin; then
     
     # 創建 Repository via API
     gh repo create ai-data-recovery \
-        --description "AI File Repair Tool - Auto-build Windows Executable via GitHub Actions" \
+        --description "AI Data Recovery Tool - Auto-build Windows Executable via GitHub Actions" \
         --public \
         --source=. \
         --remote=origin

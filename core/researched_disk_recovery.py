@@ -646,7 +646,7 @@ class FileRecovery:
 def main():
     """主程式"""
     print("=" * 60)
-    print("AI File Repair - Disk Recovery")
+    print("AI Data Recovery - Disk Recovery")
     print("=" * 60)
     
     # Scan disks

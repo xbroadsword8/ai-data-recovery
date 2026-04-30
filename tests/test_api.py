@@ -113,7 +113,7 @@ def test_api_connection(endpoint: str, api_key: str, model: str) -> dict:
 def main():
     """主函數"""
     print("=" * 60)
-    print("  AI File Repair - API 連接測試工具")
+    print("  AI Data Recovery - API 連接測試工具")
     print("=" * 60)
     print()
     

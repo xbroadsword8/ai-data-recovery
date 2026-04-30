@@ -25,7 +25,7 @@ class EULADialog:
             window = tk.Tk()
             window.withdraw()  # 隱藏主視窗
         
-        window.title("AI File Repair - 使用許可協議")
+        window.title("AI Data Recovery - 使用許可協議")
         window.geometry("800x600")
         window.resizable(True, True)
         

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Build AI File Repair with EULA Integration
+Build AI Data Recovery with EULA Integration
 集成 EULA 的自動化打包腳本
 """
 
@@ -14,7 +14,7 @@ def ensure_eula_in_build():
     """確保 EULA 文件已複製到構建目錄"""
     script_dir = Path(__file__).parent
     windows_dir = script_dir / "../windows"
-    build_dir = script_dir / "build/AI File Repair"
+    build_dir = script_dir / "build/AI Data Recovery"
     
     # 確保目錄存在
     build_dir.mkdir(parents=True, exist_ok=True)
@@ -46,7 +46,7 @@ def build_exe():
         "pyinstaller",
         "--onefile",
         "--windowed",
-        "--name", "AI File Repair",
+        "--name", "AI Data Recovery",
         "--add-data", f"windows/EULA-TW.md;.",
         "--add-data", f"scripts/gui_main.py;.",
         "--add-data", f"scripts/ai_repair.py;.",
@@ -59,7 +59,7 @@ def build_exe():
     try:
         result = subprocess.run(cmd, check=True)
         print("✓ 構建成功！")
-        print(f"輸出位置: {script_dir / 'dist/AI File Repair.exe'}")
+        print(f"輸出位置: {script_dir / 'dist/AI Data Recovery.exe'}")
         return True
     except subprocess.CalledProcessError as e:
         print(f"✗ 構建失敗: {e}")
@@ -68,7 +68,7 @@ def build_exe():
 def main():
     """主函數"""
     print("=" * 50)
-    print("AI File Repair - EULA 整合打包工具")
+    print("AI Data Recovery - EULA 整合打包工具")
     print("=" * 50)
     
     success = build_exe()

@@ -37,7 +37,7 @@ gh auth status
 
 # 設置 Git
 echo "📋 配置 Git..."
-git config --global user.name "AI File Repair CI"
+git config --global user.name "AI Data Recovery CI"
 git config --global user.email "ci@github.com"
 
 # 初始化 Git (如果還沒有)
@@ -45,7 +45,7 @@ if [ ! -d ".git" ]; then
     echo "📁 初始化 Git Repository..."
     git init
     git add .
-    git commit -m "Initial commit: AI File Repair with GitHub Actions CI/CD"
+    git commit -m "Initial commit: AI Data Recovery with GitHub Actions CI/CD"
 fi
 
 # 添加 remote (如果還沒有)

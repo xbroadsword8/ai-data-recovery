@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ai-data-recovery"
 version = "1.0.2"
-description = "AI File Repair - Intelligent document repair tool"
+description = "AI Data Recovery - Intelligent document repair tool"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [

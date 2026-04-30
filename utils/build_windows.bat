@@ -2,7 +2,7 @@
 chcp 65001 >nul
 
 echo ========================================
-echo  AI File Repair - Windows打包腳本
+echo  AI Data Recovery - Windows打包腳本
 echo ========================================
 echo.
 
@@ -26,7 +26,7 @@ echo.
 echo [信息] 開始打包...
 pyinstaller --onefile ^
   --windowed ^
-  --name "AI File Repair" ^
+  --name "AI Data Recovery" ^
   --icon=icon.ico ^
   --add-data "assets;assets" ^
   gui_main.py
@@ -41,7 +41,7 @@ echo.
 echo ========================================
 echo  ✅ 打包完成！
 echo ========================================
-echo  可執行文件位置: dist/AI File Repair.exe
+echo  可執行文件位置: dist/AI Data Recovery.exe
 echo.
 echo  該程序可以在任何 Windows 電腦上直接運行
 echo  無需安裝 Python 或任何依賴

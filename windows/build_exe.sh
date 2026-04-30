@@ -65,14 +65,14 @@ cd "$(dirname "$0")/../scripts"
 
 # 打包
 echo "🔨 開始打包 Windows .exe..."
-wine pyinstaller --onefile --windowed --name "AI File Repair" gui_main.py
+wine pyinstaller --onefile --windowed --name "AI Data Recovery" gui_main.py
 
 # 檢查輸出
-if [ -f "dist/AI File Repair.exe" ]; then
+if [ -f "dist/AI Data Recovery.exe" ]; then
     echo ""
     echo "✅ 成功！Windows .exe 已生成"
-    echo "📁 位置: dist/AI File Repair.exe"
-    echo "📊 大小: $(ls -lh dist/AI File Repair.exe | awk '{print $5}')"
+    echo "📁 位置: dist/AI Data Recovery.exe"
+    echo "📊 大小: $(ls -lh dist/AI Data Recovery.exe | awk '{print $5}')"
 else
     echo ""
     echo "❌ 打包失敗"

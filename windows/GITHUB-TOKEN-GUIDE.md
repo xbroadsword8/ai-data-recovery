@@ -33,7 +33,7 @@
 │  Token settings                                         │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│  Note:       AI File Repair CI/CD                      │
+│  Note:       AI Data Recovery CI/CD                      │
 │              (描述這個 Token 的用途)                     │
 │                                                         │
 │  Expiration: 90 days                                   │
@@ -148,7 +148,7 @@ git init
 git add .
 
 # 提交
-git commit -m "Initial commit: AI File Repair with GitHub Actions"
+git commit -m "Initial commit: AI Data Recovery with GitHub Actions"
 
 # 添加 remote
 git remote add origin https://github.com/YOUR_USERNAME/ai-data-recovery.git

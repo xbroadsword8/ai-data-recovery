@@ -93,12 +93,12 @@ pip install pyinstaller
 
 ```bash
 # 基本打包
-pyinstaller --onefile --windowed --name "AI File Repair" --icon=icon.ico gui_main.py
+pyinstaller --onefile --windowed --name "AI Data Recovery" --icon=icon.ico gui_main.py
 
 # 帶圖標的完整打包
 pyinstaller --onefile ^
   --windowed ^
-  --name "AI File Repair" ^
+  --name "AI Data Recovery" ^
   --icon=icon.ico ^
   --add-data "assets;assets" ^
   gui_main.py
@@ -108,7 +108,7 @@ pyinstaller --onefile ^
 
 ```bash
 # 在 dist 目錄中找到生成的 exe 文件
-# AI File Repair.exe
+# AI Data Recovery.exe
 
 # 雙擊運行測試
 ```
@@ -123,7 +123,7 @@ pyinstaller --onefile ^
 第一次啟動程序時：
 
 ┌────────────────────────────────────────────────┐
-│  AI File Repair - 首次啟動                      │
+│  AI Data Recovery - 首次啟動                      │
 ├────────────────────────────────────────────────┤
 │                                                 │
 │  ⚠️  請先配置 AI API                            │
@@ -392,7 +392,7 @@ pyinstaller --onefile ^
 chcp 65001 >nul
 
 echo ========================================
-echo  AI File Repair - Windows打包腳本
+echo  AI Data Recovery - Windows打包腳本
 echo ========================================
 echo.
 
@@ -416,7 +416,7 @@ echo.
 echo [信息] 開始打包...
 pyinstaller --onefile ^
   --windowed ^
-  --name "AI File Repair" ^
+  --name "AI Data Recovery" ^
   --icon=icon.ico ^
   --add-data "assets;assets" ^
   gui_main.py
@@ -431,7 +431,7 @@ echo.
 echo ========================================
 echo  ✅ 打包完成！
 echo ========================================
-echo  可執行文件位置: dist/AI File Repair.exe
+echo  可執行文件位置: dist/AI Data Recovery.exe
 echo.
 echo  該程序可以在任何 Windows 電腦上直接運行
 echo  無需安裝 Python 或任何依賴

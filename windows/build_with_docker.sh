@@ -53,7 +53,7 @@ COPY . .
 RUN pip3 install pyyaml pyinstaller
 
 # 打包
-RUN pyinstaller --onefile --windowed --name "AI File Repair" gui_main.py
+RUN pyinstaller --onefile --windowed --name "AI Data Recovery" gui_main.py
 DOCKERFILE
 
 # 構建 Docker 鏡像
@@ -74,4 +74,4 @@ rm -rf "$TEMP_DIR"
 
 echo ""
 echo "✅ 成功！Windows .exe 已生成"
-echo "📁 位置: dist/AI File Repair.exe"
+echo "📁 位置: dist/AI Data Recovery.exe"

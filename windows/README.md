@@ -1,4 +1,4 @@
-# AI File Repair - Windows 版本
+# AI Data Recovery - Windows 版本
 
 > **專業的 AI 文件修復工具** - 支持任意 OpenAI 兼容 API
 
@@ -19,7 +19,7 @@
 
 ### 方法 1：使用預打包版本（推薦）
 
-1. 下載 `AI File Repair.exe`
+1. 下載 `AI Data Recovery.exe`
 2. 雙擊運行
 3. 配置 API Key
 4. 開始修復！
@@ -36,7 +36,7 @@ pip install requests pyyaml pyinstaller
 # 3. 運行打包腳本
 build_windows.bat
 
-# 4. 在 dist 目錄找到 AI File Repair.exe
+# 4. 在 dist 目錄找到 AI Data Recovery.exe
 ```
 
 ---
@@ -71,7 +71,7 @@ Python 3.8 或更高版本 (如果自行打包)
 首次啟動會自動加載預設配置：
 
 ┌─────────────────────────────────────────┐
-│  AI File Repair - 首次啟動              │
+│  AI Data Recovery - 首次啟動              │
 ├─────────────────────────────────────────┤
 │                                         │
 │  ⚠️  請先配置 AI API                    │
@@ -288,7 +288,7 @@ Python 3.8 或更高版本 (如果自行打包)
 # 2. 啟動 Ollama 服務
 ollama serve
 
-# 3. 在 AI File Repair 中設置:
+# 3. 在 AI Data Recovery 中設置:
 # API 端點: http://localhost:11434/v1
 # API Key: ollama
 # 模型: deepseek-r1:1.5b
@@ -509,4 +509,4 @@ ai-data-recovery/
 
 **版本:** 1.0  
 **日期:** 2026-04-25  
-**作者:** AI File Repair Team
+**作者:** AI Data Recovery Team

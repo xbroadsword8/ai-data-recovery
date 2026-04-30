@@ -1,5 +1,5 @@
 # GitHub Actions Workflow for Building Windows Executable
-# 自動化生成 AI File Repair Windows .exe
+# 自動化生成 AI Data Recovery Windows .exe
 
 name: Build Windows Executable
 

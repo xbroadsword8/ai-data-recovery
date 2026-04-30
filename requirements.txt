@@ -1,4 +1,4 @@
-# Python dependencies for AI File Repair
+# Python dependencies for AI Data Recovery
 # Install with: pip install -r requirements.txt
 
 # GUI Framework

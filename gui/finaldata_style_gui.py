@@ -233,7 +233,7 @@ class FinalDataGUI:
     
     def __init__(self, root):
         self.root = root
-        self.root.title("AI File Repair - Disk Recovery (FinalData Style)")
+        self.root.title("AI Data Recovery - Disk Recovery (FinalData Style)")
         self.root.geometry("1400x900")
         self.root.minsize(1200, 700)
         

@@ -1,5 +1,5 @@
 """
-AI File Repair Module
+AI Data Recovery Module
 支持任意 OpenAI 兼容 API 的智能修復工具
 
 目錄結構：
@@ -38,12 +38,12 @@ class DirectoryStructure:
         self.program_files = self.program_dir / "dist"
         
         # 用戶配置位置 (AppData)
-        self.appdata_dir = Path.home() / "AppData" / "Local" / "AI File Repair"
+        self.appdata_dir = Path.home() / "AppData" / "Local" / "AI Data Recovery"
         self.config_dir = self.appdata_dir / "config"
         self.logs_dir = self.appdata_dir / "logs"
         
         # 暫存位置 (Temp)
-        self.temp_dir = Path(tempfile.gettempdir()) / "AI File Repair"
+        self.temp_dir = Path(tempfile.gettempdir()) / "AI Data Recovery"
         self.preview_dir = self.temp_dir / "preview"
         self.backup_dir = self.temp_dir / "backup"
         self.api_cache_dir = self.temp_dir / "api_cache"

@@ -31,7 +31,7 @@ class EULAPDFGenerator:
         
         # 標題
         self.pdf.set_font('SimSun', 'B', 16)
-        self.pdf.cell(0, 10, 'AI File Repair', ln=True, align='C')
+        self.pdf.cell(0, 10, 'AI Data Recovery', ln=True, align='C')
         self.pdf.set_font('SimSun', '', 12)
         self.pdf.cell(0, 10, '最終用戶許可協議', ln=True, align='C')
         self.pdf.ln(20)
